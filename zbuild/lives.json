@@ -1,35 +1,35 @@
 {
-  "lives_old": "https://jihulab.com/Wirili/TV/-/raw/main/live/tmLive.js",
+  "lives_old": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
   "lives": [
     {
       "name": "Live1",
       "playerType": 1,
       "ua": "okhttp/3.12.13",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/tang2.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang2.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "Live2",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/tmLive.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "Live3",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/live_new.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/live_new.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "Tang1",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/tang1.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang1.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "Tang2",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/tang2.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang2.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }

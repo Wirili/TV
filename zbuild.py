@@ -25,11 +25,11 @@ md5Rsq = requests.get(
 #     md5Rsq.text.strip()
 # )
 
-spider = "https://jihulab.com/Wirili/TV/-/raw/main/custom_spider.jar;md5;{0}".format(
+spider = "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;{0}".format(
     md5Rsq.text.strip()
 )
 
-spider1 = "https://jihulab.com/Wirili/TV/-/raw/main/custom_spider.jar;md5;{0}".format(
+spider1 = "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;{0}".format(
     md5Rsq.text.strip()
 )
 

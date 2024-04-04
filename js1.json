@@ -1,35 +1,35 @@
 {
-  "spider": "https://jihulab.com/Wirili/TV/-/raw/main/custom_spider.jar;md5;eb9ef1e338ee3b01ef1c1c388841d7bb",
+  "spider": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;eb9ef1e338ee3b01ef1c1c388841d7bb",
   "lives": [
     {
       "name": "Live1",
       "playerType": 1,
       "ua": "okhttp/3.12.13",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/tang2.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang2.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "Live2",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/tmLive.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "Live3",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/live_new.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/live_new.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "Tang1",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/tang1.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang1.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "Tang2",
-      "url": "https://jihulab.com/Wirili/TV/-/raw/main/live/tang2.js",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang2.js",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -39,7 +39,7 @@
         {
           "name": "LiveX",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9qaWh1bGFiLmNvbS9XaXJpbGkvVFYvLS9yYXcvbWFpbi9saXZlL3RtTGl2ZS5qcw=="
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9odWIuZ2l0bWlycm9yLmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vV2lyaWxpL1RWL21haW4vbGl2ZS90bUxpdmUuanM="
           ]
         }
       ]
@@ -50,7 +50,7 @@
       "key": "py_cutv",
       "name": "汕头综合",
       "type": 3,
-      "api": "https://jihulab.com/Wirili/TV/-/raw/main/py/py/py_cutv.py",
+      "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_cutv.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -626,7 +626,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://jihulab.com/Wirili/TV/-/raw/main/py/py/py_test.py"
+      "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_test.py"
     },
     {
       "key": "push_agent",

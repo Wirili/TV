@@ -4,7 +4,7 @@
       "key": "py_cutv",
       "name": "汕头综合",
       "type": 3,
-      "api": "https://jihulab.com/Wirili/TV/-/raw/main/py/py/py_cutv.py",
+      "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_cutv.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -76,7 +76,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://jihulab.com/Wirili/TV/-/raw/main/js/Auete.js"
+      "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/js/Auete.js"
     },
     // {
     //   "key": "dr_乐猪TV",
@@ -96,7 +96,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://jihulab.com/Wirili/TV/-/raw/main/js/两个BT.js"
+      "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/js/两个BT.js"
     },
     {
       "key": "dr_厂长资源",
@@ -166,7 +166,7 @@
     //   "searchable": 1,
     //   "quickSearch": 0,
     //   "filterable": 0,
-    //   "ext": "https://jihulab.com/Wirili/TV/-/raw/main/py/py/py_voflix.py"
+    //   "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_voflix.py"
     // },
     {
       "key": "dr_AnFuns",
@@ -896,7 +896,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://jihulab.com/Wirili/TV/-/raw/main/py/py/py_test.py"
+      "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_test.py"
     },
     {
       "key": "push_agent",

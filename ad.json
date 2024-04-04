@@ -1,5 +1,5 @@
 {
-  "spider": "https://jihulab.com/Wirili/TV/-/raw/main/custom_spider.jar;md5;eb9ef1e338ee3b01ef1c1c388841d7bb",
+  "spider": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;eb9ef1e338ee3b01ef1c1c388841d7bb",
   "lives": [
     {
       "name": "Aduit",
