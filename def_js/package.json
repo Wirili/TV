@@ -1,0 +1,7 @@
+{
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "sync-fetch": "^0.4.2"
+  }
+}
