@@ -1,5 +1,5 @@
 {
-  "spider": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;883df69d6854363bcb610b44946ed374",
+  "spider": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;d647921c4123a9fec5852013eba7ba1d",
   "lives": [
     {
       "name": "Live1",
@@ -53,16 +53,6 @@
   ],
   "sites": [
     {
-      "key": "py_cutv",
-      "name": "汕头综合",
-      "type": 3,
-      "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_cutv.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
       "key": "csp_Douban",
       "name": "🐞豆瓣",
       "type": 3,
@@ -76,6 +66,15 @@
       "name": "🐞荐片",
       "type": 3,
       "api": "csp_Jianpian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_PTT",
+      "name": "🐞PTT",
+      "type": 3,
+      "api": "csp_PTT",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

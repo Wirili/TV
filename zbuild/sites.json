@@ -1,15 +1,15 @@
 {
   "sites": [
-    {
-      "key": "py_cutv",
-      "name": "汕头综合",
-      "type": 3,
-      "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_cutv.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 0
-    },
+    // {
+    //   "key": "py_cutv",
+    //   "name": "汕头综合",
+    //   "type": 3,
+    //   "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_cutv.py",
+    //   "searchable": 1,
+    //   "quickSearch": 1,
+    //   "filterable": 0,
+    //   "changeable": 0
+    // },
     // {
     //   "key": "dr_荐片",
     //   "name": "荐片",
@@ -34,6 +34,15 @@
       "name": "🐞荐片",
       "type": 3,
       "api": "csp_Jianpian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_PTT",
+      "name": "🐞PTT",
+      "type": 3,
+      "api": "csp_PTT",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
