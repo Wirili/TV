@@ -74,16 +74,16 @@
     //   "quickSearch": 1,
     //   "filterable": 1
     // },
-    {
-      "key": "dr_农民影视",
-      "name": "农民影视",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/农民影视.js"
-    },
+    // {
+    //   "key": "dr_农民影视",
+    //   "name": "农民影视",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 1,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/农民影视.js"
+    // },
     // {
     //   "key": "盘搜",
     //   "name": "📃盘搜",
@@ -111,16 +111,16 @@
     //   "filterable": 0,
     //   "changeable": 0
     // },
-    {
-      "key": "dr_Auete",
-      "name": "Auete",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/Auete.js"
-    },
+    // {
+    //   "key": "dr_Auete",
+    //   "name": "Auete",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/Auete.js"
+    // },
     {
       "key": "dr_两个BT",
       "name": "两个BT",
@@ -131,16 +131,16 @@
       "filterable": 0,
       "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/两个BT.js"
     },
-    {
-      "key": "dr_厂长资源",
-      "name": "厂长资源",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/厂长资源.js"
-    },
+    // {
+    //   "key": "dr_厂长资源",
+    //   "name": "厂长资源",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 1,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/厂长资源.js"
+    // },
     {
       "key": "dr_TVB云播",
       "name": "TVB云播",
@@ -151,56 +151,56 @@
       "filterable": 0,
       "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/TVB云播.js"
     },
-    {
-      "key": "dr_555影视",
-      "name": "555影视",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/555影视[飞].js"
-    },
-    {
-      "key": "dr_新视觉影视",
-      "name": "新视觉影视",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/新视觉影视.js"
-    },
-    {
-      "key": "dr_爱看",
-      "name": "爱看",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/爱看.js"
-    },
-    {
-      "key": "dr_voflix",
-      "name": "Voflix",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/voflix.js"
-    },
-    {
-      "key": "dr_AGE动漫",
-      "name": "AGE动漫",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/AGE动漫.js"
-    },
+    // {
+    //   "key": "dr_555影视",
+    //   "name": "555影视",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/555影视[飞].js"
+    // },
+    // {
+    //   "key": "dr_新视觉影视",
+    //   "name": "新视觉影视",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 1,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/新视觉影视.js"
+    // },
+    // {
+    //   "key": "dr_爱看",
+    //   "name": "爱看",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/爱看.js"
+    // },
+    // {
+    //   "key": "dr_voflix",
+    //   "name": "Voflix",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/voflix.js"
+    // },
+    // {
+    //   "key": "dr_AGE动漫",
+    //   "name": "AGE动漫",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 1,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/AGE动漫.js"
+    // },
     {
       "key": "dr_58动漫",
       "name": "58动漫",
@@ -251,16 +251,16 @@
       "filterable": 0,
       "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/奇优影院.js"
     },
-    {
-      "key": "dr_大米星球",
-      "name": "大米星球",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/大米星球.js"
-    },
+    // {
+    //   "key": "dr_大米星球",
+    //   "name": "大米星球",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/大米星球.js"
+    // },
     {
       "key": "dr_凌云影视",
       "name": "凌云影视",
