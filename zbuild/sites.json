@@ -161,24 +161,24 @@
         "短剧"
       ]
     },
-    {
-      "key": "csp_动漫巴士",
-      "name": "🐞动漫巴士",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_6V电影",
-      "name": "🐞6V电影",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+    // {
+    //   "key": "csp_动漫巴士",
+    //   "name": "🐞动漫巴士",
+    //   "type": 3,
+    //   "api": "csp_Dm84",
+    //   "searchable": 1,
+    //   "quickSearch": 1,
+    //   "filterable": 1
+    // },
+    // {
+    //   "key": "csp_6V电影",
+    //   "name": "🐞6V电影",
+    //   "type": 3,
+    //   "api": "csp_Xb6v",
+    //   "searchable": 1,
+    //   "quickSearch": 1,
+    //   "filterable": 1
+    // },
     // {
     //   "key": "csp_JustLive",
     //   "name": "🐞JustLive",
@@ -235,16 +235,16 @@
     //   "filterable": 0,
     //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/Auete.js"
     // },
-    {
-      "key": "dr_两个BT",
-      "name": "两个BT",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/两个BT.js"
-    },
+    // {
+    //   "key": "dr_两个BT",
+    //   "name": "两个BT",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 1,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/两个BT.js"
+    // },
     // {
     //   "key": "dr_厂长资源",
     //   "name": "厂长资源",
@@ -315,46 +315,46 @@
     //   "filterable": 1,
     //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/AGE动漫.js"
     // },
-    {
-      "key": "dr_58动漫",
-      "name": "58动漫",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/58动漫.js"
-    },
-    {
-      "key": "dr_虎牙直播",
-      "name": "虎牙直播",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/虎牙直播.js"
-    },
-    {
-      "key": "dr_斗鱼直播",
-      "name": "斗鱼直播",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/斗鱼直播.js"
-    },
-    {
-      "key": "dr_星辰",
-      "name": "星辰",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/星辰.js"
-    },
+    // {
+    //   "key": "dr_58动漫",
+    //   "name": "58动漫",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/58动漫.js"
+    // },
+    // {
+    //   "key": "dr_虎牙直播",
+    //   "name": "虎牙直播",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 1,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/虎牙直播.js"
+    // },
+    // {
+    //   "key": "dr_斗鱼直播",
+    //   "name": "斗鱼直播",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/斗鱼直播.js"
+    // },
+    // {
+    //   "key": "dr_星辰",
+    //   "name": "星辰",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/星辰.js"
+    // },
     {
       "key": "dr_奇优影院",
       "name": "奇优影院",
@@ -375,16 +375,16 @@
     //   "filterable": 0,
     //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/大米星球.js"
     // },
-    {
-      "key": "dr_凌云影视",
-      "name": "凌云影视",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/凌云影视.js"
-    },
+    // {
+    //   "key": "dr_凌云影视",
+    //   "name": "凌云影视",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/凌云影视.js"
+    // },
     {
       "key": "dr_兔小贝",
       "name": "兔小贝",
@@ -395,16 +395,16 @@
       "filterable": 0,
       "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/兔小贝.js"
     },
-    {
-      "key": "dr_LIBVIO",
-      "name": "LIBVIO",
-      "type": 3,
-      "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/LIBVIO.js"
-    },
+    // {
+    //   "key": "dr_LIBVIO",
+    //   "name": "LIBVIO",
+    //   "type": 3,
+    //   "api": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/libs/drpy2.min.js",
+    //   "searchable": 1,
+    //   "quickSearch": 0,
+    //   "filterable": 0,
+    //   "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/LIBVIO.js"
+    // },
     {
       "key": "IKun资源",
       "name": "IKun资源",
