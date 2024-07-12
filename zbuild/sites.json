@@ -445,34 +445,12 @@
     {
       "key": "百度云资源",
       "name": "百度云资源",
-      "type": 0,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
+      "type": 3,
+      "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "大陆剧",
-        "韩剧",
-        "日剧",
-        "欧美剧",
-        "港澳剧",
-        "台湾剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "纪录片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "伦理片"
-      ]
+      "ext": "https://api.apibdzy.com/api.php/provide/"
     },
     // {
     //   "key": "暴风资源",
