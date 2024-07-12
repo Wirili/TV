@@ -234,8 +234,8 @@
     {
       "key": "木耳资源",
       "name": "木耳资源",
-      "type": 1,
-      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+      "type": 0,
+      "api": "https://xml.heimuer.xyz/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -252,7 +252,6 @@
         "日本动漫",
         "国产综艺",
         "港台综艺",
-        "短剧",
         "动作片",
         "喜剧片",
         "爱情片",
@@ -267,8 +266,7 @@
         "纪录片",
         "惊悚片",
         "奇幻片",
-        "剧情片",
-        "伦理片"
+        "剧情片"
       ]
     },
     {
