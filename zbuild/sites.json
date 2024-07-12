@@ -583,6 +583,34 @@
       ]
     },
     {
+      "key": "U酷资源",
+      "name": "U酷资源",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "国产剧",
+        "港澳剧",
+        "韩剧",
+        "日剧",
+        "台湾剧",
+        "欧美剧",
+        "泰剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "伦理片"
+      ]
+    },
+    {
       "key": "高清资源",
       "name": "️高清采集",
       "type": 1,
