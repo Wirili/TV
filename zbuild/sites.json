@@ -446,7 +446,7 @@
       "key": "百度云资源",
       "name": "百度云资源",
       "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
