@@ -197,7 +197,7 @@
     {
       "key": "木耳资源",
       "name": "木耳资源",
-      "type": 0,
+      "type": 1,
       "api": "https://json.heimuer.xyz/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
