@@ -2,16 +2,14 @@
   "spider": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;d647921c4123a9fec5852013eba7ba1d",
   "lives": [
     {
-      "name": "Live1",
-      "playerType": 1,
-      "ua": "okhttp/3.12.13",
-      "url": "https://cdn.jsdelivr.net/gh/Supprise0901/TVBox_live@main/live.txt",
+      "name": "综合",
+      "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "Live2",
-      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
+      "name": "IPv6",
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
