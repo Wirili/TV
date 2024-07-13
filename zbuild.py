@@ -52,20 +52,20 @@ with open("./zbuild/rules.json", "r", encoding="utf-8") as f:
 with open("./zbuild/ads.json", "r", encoding="utf-8") as f:
     ads = commentjson.load(f)
 
-lives["lives"].append(
-    {
-        "group": "redirect",
-        "channels": [
-            {
-                "name": "LiveX",
-                "urls": [
-                    "proxy://do=live&type=txt&ext="
-                    + base64.b64encode(lives["lives_old"].encode("utf-8")).decode()
-                ],
-            }
-        ],
-    }
-)
+# lives["lives"].append(
+#     {
+#         "group": "redirect",
+#         "channels": [
+#             {
+#                 "name": "LiveX",
+#                 "urls": [
+#                     "proxy://do=live&type=txt&ext="
+#                     + base64.b64encode(lives["lives_old"].encode("utf-8")).decode()
+#                 ],
+#             }
+#         ],
+#     }
+# )
 
 # 默认js
 js = {
@@ -93,7 +93,7 @@ with open("./js1.json", "w", encoding="utf-8") as f:
     commentjson.dump(js1, f, ensure_ascii=False, indent=2)
 
 # 默认aduit
-ad = {"spider": spider, "lives": lives["lives_aduit"], "sites": aduit_sites["sites"]}
+ad = {"spider": spider, "lives": lives["lives"], "sites": aduit_sites["sites"]}
 
 for item in sites["sites_m"]:
     ad["sites"].insert(0, item)

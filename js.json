@@ -12,17 +12,6 @@
       "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "LiveX",
-          "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9odWIuZ2l0bWlycm9yLmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vV2lyaWxpL1RWL21haW4vbGl2ZS90bUxpdmUuanM="
-          ]
-        }
-      ]
     }
   ],
   "sites": [

@@ -2,9 +2,16 @@
   "spider": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;d647921c4123a9fec5852013eba7ba1d",
   "lives": [
     {
-      "name": "Aduit",
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+      "name": "IPv6",
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "综合",
+      "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "sites": [
