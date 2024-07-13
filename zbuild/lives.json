@@ -2,38 +2,14 @@
   "lives_old": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
   "lives": [
     {
-      "name": "综合",
-      "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "IPv6",
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "Live3",
-      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/live_new.js",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "Tang1",
-      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang1.js",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "Tang2",
-      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang2.js",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "Live11",
-      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tang2.js",
+      "name": "综合",
+      "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
