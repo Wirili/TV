@@ -26,23 +26,6 @@
       "ext": "https://cdn.jsdelivr.net/gh/hjdhnx/dr_py@main/js/猫了个咪.js"
     },
     {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": {
-        "drives": [
-          {
-            "name": "AV",
-            "server": "https://a74d291e-3b91-45a5-9ec6-9f08a9178e59.id.repl.co"
-          }
-        ]
-      }
-    },
-    {
       "key": "玩偶",
       "name": "玩偶",
       "type": 3,
@@ -91,6 +74,70 @@
       "filterable": 1
     },
     {
+      "key": "玖玖资源",
+      "name": "玖玖资源",
+      "type": 0,
+      "api": "http://99cjz.com/inc/ck.php?ac=videolist",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "色色资源",
+      "name": "色色资源",
+      "type": 0,
+      "api": "http://sscjz.com/inc/sapi.php?ac=videolist",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "色猫资源",
+      "name": "色猫资源",
+      "type": 0,
+      "api": "https://caiji.semaozy.net/inc/api.php",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "久草在线",
+      "name": "久草在线",
+      "type": 0,
+      "api": "http://9ccjz.com/api?ac=videolist",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "番号资源",
+      "name": "番号资源",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "大地资源",
+      "name": "大地资源",
+      "type": 0,
+      "api": "http://dadiapi.com/api.php",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "玉兔资源",
+      "name": "玉兔资源",
+      "type": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "115资源",
+      "name": "115资源",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
       "key": "llzxcj.com",
       "name": "成人12",
       "type": 0,
@@ -99,26 +146,10 @@
       "filterable": 1
     },
     {
-      "key": "dadiapi.com",
-      "name": "成人14",
-      "type": 0,
-      "api": "http://dadiapi.com/api.php",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
       "key": "f2dcj6.com",
       "name": "成人16",
       "type": 0,
       "api": "http://f2dcj6.com/sapi?ac=videolist",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "fhapi9.com",
-      "name": "成人17",
-      "type": 1,
-      "api": "http://fhapi9.com/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1
     },
