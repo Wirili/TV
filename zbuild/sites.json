@@ -514,8 +514,8 @@
     {
       "key": "木耳资源",
       "name": "木耳资源",
-      "type": 1,
-      "api": "https://xml.heimuer.xyz/api.php/provide/vod/",
+      "type": 0,
+      "api": "https://json.heimuer.xyz/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -527,7 +527,6 @@
         "泰剧",
         "台剧",
         "欧美剧",
-        "海外剧",
         "国产动漫",
         "日本动漫",
         "国产综艺",
