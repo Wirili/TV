@@ -28,6 +28,15 @@
       "filterable": 1
     },
     {
+      "key": "csp_新6V电影",
+      "name": "新6V电影",
+      "type": 3,
+      "api": "csp_Xb6v",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "华为吧资源",
       "name": "华为吧资源",
       "type": 1,
@@ -473,15 +482,6 @@
     //   "name": "🐞动漫巴士",
     //   "type": 3,
     //   "api": "csp_Dm84",
-    //   "searchable": 1,
-    //   "quickSearch": 1,
-    //   "filterable": 1
-    // },
-    // {
-    //   "key": "csp_6V电影",
-    //   "name": "🐞6V电影",
-    //   "type": 3,
-    //   "api": "csp_Xb6v",
     //   "searchable": 1,
     //   "quickSearch": 1,
     //   "filterable": 1

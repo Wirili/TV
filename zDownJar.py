@@ -21,13 +21,13 @@ def cleanText(src):
 if __name__ == "__main__":
 
     header = {
-        "user-agent": "okhttp/4.11.0",
+        "User-Agent": "okhttp/4.11.0",
     }
 
     lists = {
         # "饭太硬": "http://饭太硬.ml/tv",
         # "肥猫": "http://我不是.肥猫.love:63/接口禁止贩卖",
-        "牛蛙": "http://ok321.top/tv",
+        "牛蛙": "http://tvbox.王二小放牛娃.xyz",
     }
 
     for item in lists:
