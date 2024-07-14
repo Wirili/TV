@@ -307,25 +307,6 @@
       ]
     },
     {
-      "key": "影图资源",
-      "name": "影图资源",
-      "type": 1,
-      "api": "https://vipcj.timizy.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "连续剧",
-        "电影",
-        "动漫",
-        "综艺",
-        "日韩剧",
-        "欧美剧",
-        "港台剧"
-      ]
-    },
-    {
       "key": "鸭鸭资源",
       "name": "鸭鸭资源",
       "type": 1,
