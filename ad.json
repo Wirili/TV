@@ -88,14 +88,6 @@
       "filterable": 1
     },
     {
-      "key": "好色资源",
-      "name": "好色资源",
-      "type": 1,
-      "api": "https://apisesehuzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
       "key": "色色虎资源",
       "name": "色色虎资源",
       "type": 1,
