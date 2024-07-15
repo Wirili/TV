@@ -21,8 +21,7 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1
     },
     {
       "key": "csp_荐片",
@@ -30,8 +29,7 @@
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1
     },
     {
       "key": "csp_PTT",
@@ -39,8 +37,7 @@
       "type": 3,
       "api": "csp_PTT",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1
     },
     {
       "key": "csp_新6V电影",
@@ -48,8 +45,7 @@
       "type": 3,
       "api": "csp_Xb6v",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "changeable": 0
     },
     {
       "key": "华为吧资源",
@@ -58,8 +54,7 @@
       "api": "https://cjhwba.com/api.php/provide/vod/",
       "playUrl": "",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "日韩剧",
@@ -95,8 +90,7 @@
       "type": 1,
       "api": "https://xml.heimuer.xyz/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "header": {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.102"
       },
@@ -136,8 +130,7 @@
       "api": "https://api.1080zyku.com/inc/apijson.php",
       "playUrl": "",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "动作片",
@@ -171,8 +164,7 @@
       "api": "https://360zy.com/api.php/provide/vod/",
       "playUrl": "",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "韩国剧",
@@ -209,8 +201,7 @@
       "api": "https://ikunzyapi.com/api.php/provide/vod/",
       "playUrl": "",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "日韩剧",
@@ -246,8 +237,7 @@
       "type": 1,
       "api": "https://collect.wolongzy.cc/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "韩国剧",
@@ -284,8 +274,7 @@
       "type": 1,
       "api": "https://www.mdzyapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "韩国剧",
@@ -321,8 +310,7 @@
       "type": 1,
       "api": "https://cj2.yayazy.net/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "韩剧",
@@ -362,8 +350,7 @@
       "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
       "playUrl": "",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "韩国剧",
@@ -403,8 +390,7 @@
       "type": 1,
       "api": "https://api.ukuapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "国产剧",
         "港澳剧",
@@ -431,8 +417,7 @@
       "type": 0,
       "api": "https://subocaiji.com/api.php/provide/vod/at/xml",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "categories": [
         "大陆剧",
         "韩剧",
@@ -461,7 +446,6 @@
       "type": 3,
       "api": "csp_Push",
       "searchable": 1,
-      "filterable": 0,
       "changeable": 0
     }
   ],
