@@ -7,14 +7,15 @@ import requests
 ## jar包地址
 ## github文件加速 https://ghproxy.net
 
-# jar = requests.get("https://ghproxy.net/https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar")
-jar = requests.get("https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar")
+jar = requests.get("https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar")
+# jar = requests.get("https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar")
 
 with open("custom_spider.jar", "wb") as code:
    code.write(jar.content)
 
 md5Rsq = requests.get(
-    "https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar.md5"
+    "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar.md5"
+    # "https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar.md5"
 )
 
 # spider = "https://ghproxy.net/https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar;md5;{0}".format(
