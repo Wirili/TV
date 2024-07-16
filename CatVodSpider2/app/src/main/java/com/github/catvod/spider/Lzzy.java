@@ -117,7 +117,7 @@ public class Lzzy extends Spider {
 
     @Override
     public String categoryContent(String tid, String pg, boolean filter, HashMap<String, String> extend) throws Exception {
-        String json = OkHttp.string(siteUrl+"?ac=detail&t="+tid+"&page="+pg, getDetailHeader());
+        String json = OkHttp.string(siteUrl+"?ac=detail&t="+tid+"&pg="+pg, getDetailHeader());
         Result rs = Result.objectFrom(json);
         return rs.string();
     }
