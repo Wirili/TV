@@ -1,5 +1,6 @@
 package com.github.catvod.spider;
 
+import android.content.Context;
 import android.text.TextUtils;
 
 import com.github.catvod.bean.Class;
@@ -18,6 +19,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -36,9 +38,7 @@ import okhttp3.Response;
  */
 public class Lzzy extends Spider {
 
-    private final String siteUrl = "https://cj.lziapi.com/api.php/provide/vod";
-    private String nextSearchUrlPrefix;
-    private String nextSearchUrlSuffix;
+    private final String siteUrl = "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8";
 
     private Map<String, String> getHeader() {
         Map<String, String> header = new HashMap<>();
@@ -57,15 +57,62 @@ public class Lzzy extends Spider {
     public String homeContent(boolean filter) throws Exception {
         String json = OkHttp.string(siteUrl, getDetailHeader());
         JSONObject obj = new JSONObject(json);
-        ArrayList<String> ids = new ArrayList<>();
+        JSONArray classArray = obj.getJSONArray("class");
+        List<Class> classes = new ArrayList<>();
+        List<String> clist = new ArrayList<>();
+        Collections.addAll(clist, "国产剧",
+                "韩国剧",
+                "日本剧",
+                "电影片",
+                "连续剧",
+                "综艺片",
+                "动漫片",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "台湾剧",
+                "香港剧",
+                "欧美剧",
+                "记录片",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "体育",
+                "足球",
+                "篮球",
+                "网球",
+                "斯诺克",
+                "伦理片");
+        for(String item : clist) {
+            for (int j = 0; j < classArray.length(); j++) {
+                JSONObject cl = classArray.getJSONObject(j);
+                if (item.equals(cl.optString("type_name").trim())) {
+                    classes.add(new Class(cl.optString("type_id").trim(), cl.optString("type_name").trim()));
+                }
+            }
+        }
+
         JSONArray vodArray = obj.getJSONArray("list");
+        List<String> ids = new ArrayList<>();
         for (int j = 0; j < vodArray.length(); j++) {
             JSONObject vod = vodArray.getJSONObject(j);
             ids.add(vod.optString("vod_id").trim());
         }
-        json = OkHttp.string(siteUrl+"?ac=detail&ids="+TextUtils.join(",", ids), getDetailHeader());
+        json = OkHttp.string(siteUrl + "?ac=detail&ids=" + TextUtils.join(",", ids), getDetailHeader());
         Result rs = Result.objectFrom(json);
-        return rs.string();
+        return Result.string(classes, rs.getList(), new JSONObject());
     }
 
     @Override
