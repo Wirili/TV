@@ -10,6 +10,7 @@ import com.github.catvod.crawler.Spider;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Util;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -55,26 +56,16 @@ public class Lzzy extends Spider {
     @Override
     public String homeContent(boolean filter) throws Exception {
         String json = OkHttp.string(siteUrl, getDetailHeader());
+        JSONObject obj = new JSONObject(json);
+        ArrayList<String> ids = new ArrayList<>();
+        JSONArray vodArray = obj.getJSONArray("list");
+        for (int j = 0; j < vodArray.length(); j++) {
+            JSONObject vod = vodArray.getJSONObject(j);
+            ids.add(vod.optString("vod_id").trim());
+        }
+        json = OkHttp.string(siteUrl+"?ac=detail&ids="+TextUtils.join(",", ids), getDetailHeader());
         Result rs = Result.objectFrom(json);
         return rs.string();
-    }
-
-    private List<Vod> parseVodListFromDoc(String html) {
-        return parseVodListFromDoc(Jsoup.parse(html));
-    }
-
-    private List<Vod> parseVodListFromDoc(Document doc) {
-        Elements items = doc.select("#post_container .post_hover");
-        List<Vod> list = new ArrayList<>();
-        for (Element item : items) {
-            Element element = item.select("[class=zoom]").get(0);
-            String vodId = element.attr("href");
-            String name = element.attr("title").replaceAll("</?[^>]+>", "");
-            String pic = element.select("img").attr("src");
-            String remark = item.select("[rel=category tag]").text();
-            list.add(new Vod(vodId, name, pic, remark));
-        }
-        return list;
     }
 
     @Override
@@ -87,38 +78,9 @@ public class Lzzy extends Spider {
     @Override
     public String detailContent(List<String> ids) throws Exception {
         String vodId = ids.get(0);
-        String detailUrl = siteUrl + vodId;
         String json = OkHttp.string(siteUrl+"?ac=detail&ids="+vodId, getDetailHeader());
         Result rs = Result.objectFrom(json);
         return Result.string(rs.getList().get(0));
-    }
-
-    private String getStrByRegex(Pattern pattern, String str) {
-        Matcher matcher = pattern.matcher(str);
-        if (matcher.find()) return matcher.group(1).trim();
-        return "";
-    }
-
-    private String getActorOrDirector(Pattern pattern, String str) {
-        return getStrByRegex(pattern, str)
-                .replaceAll("<br>", "")
-                .replaceAll("&nbsp;", "")
-                .replaceAll("&amp;", "")
-                .replaceAll("middot;", "・")
-                .replaceAll("　　　　　", ",")
-                .replaceAll("　　　　 　", ",")
-                .replaceAll("　", "");
-    }
-
-    private String getDescription(Pattern pattern, String str) {
-        return getStrByRegex(pattern, str)
-                .replaceAll("</?[^>]+>", "")
-                .replaceAll("\n", "")
-                .replaceAll("&amp;", "")
-                .replaceAll("middot;", "・")
-                .replaceAll("ldquo;", "【")
-                .replaceAll("rdquo;", "】")
-                .replaceAll("　", "");
     }
 
     @Override
@@ -128,37 +90,22 @@ public class Lzzy extends Spider {
 
     @Override
     public String searchContent(String key, boolean quick, String pg) throws Exception {
-        String searchUrl = siteUrl + "/e/search/index.php";
-        if (pg.equals("1")) {
-            RequestBody formBody = new FormBody.Builder()
-                    .add("show", "title")
-                    .add("tempid", "1")
-                    .add("tbname", "article")
-                    .add("mid", "1")
-                    .add("dopost", "search")
-                    .add("submit", "")
-                    .addEncoded("keyboard", key)
-                    .build();
-            Request request = new Request.Builder().url(searchUrl)
-                    .addHeader("User-Agent", Util.CHROME)
-                    .addHeader("Origin", siteUrl)
-                    .addHeader("Referer", siteUrl + "/")
-                    .post(formBody)
-                    .build();
-            Response response = OkHttp.newCall(request);
-            String[] split = String.valueOf(response.request().url()).split("\\?searchid=");
-            nextSearchUrlPrefix = split[0] + "index.php?page=";
-            nextSearchUrlSuffix = "&searchid=" + split[1];
-            return Result.string(parseVodListFromDoc(response.body().string()));
-        } else {
-            int page = Integer.parseInt(pg) - 1;
-            searchUrl = nextSearchUrlPrefix + page + nextSearchUrlSuffix;
-            return Result.string(parseVodListFromDoc(OkHttp.string(searchUrl, getHeader())));
+        String searchUrl = "https://search.lziapi.com/json-api/?dname=liangzi&key="+key+"&count=100";
+        String json = OkHttp.string(searchUrl, getDetailHeader());
+        JSONObject obj = new JSONObject(json);
+        JSONArray vodArray = obj.getJSONArray("posts");
+        ArrayList<String> ids = new ArrayList<>();
+        for (int j = 0; j < vodArray.length(); j++) {
+            JSONObject vod = vodArray.getJSONObject(j);
+            ids.add(vod.optString("vod_id").trim());
         }
+        json = OkHttp.string(siteUrl+"?ac=detail&ids="+TextUtils.join(",", ids), getDetailHeader());
+        Result rs = Result.objectFrom(json);
+        return rs.string();
     }
 
     @Override
     public String playerContent(String flag, String id, List<String> vipFlags) throws Exception {
-        return Result.get().url(id).string();
+        return Result.get().parse(Util.isVideoFormat(id) ? 0 : 1).url(id).string();
     }
 }
