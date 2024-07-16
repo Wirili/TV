@@ -160,6 +160,14 @@
       "filterable": 1
     },
     {
+      "key": "乐播资源",
+      "name": "乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
       "key": "llzxcj.com",
       "name": "成人12",
       "type": 0,
@@ -220,14 +228,6 @@
       "name": "成人40",
       "type": 0,
       "api": "https://www.kxgav.com/api/xml.php",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "lbapi9.com",
-      "name": "成人41",
-      "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1
     },
