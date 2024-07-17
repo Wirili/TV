@@ -213,7 +213,7 @@
       "name": "天空资源",
       "type": 1,
       "api": "https://api.tiankongapi.com/api.php/provide/vod/from/tkm3u8/",
-      "playUrl": "",
+      "playUrl": "https://jx.huishij.com/yun/?url=",
       "searchable": 1,
       "changeable": 1,
       "categories": [
