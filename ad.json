@@ -9,7 +9,7 @@
     },
     {
       "name": "yuanzl77",
-      "url": "https://cdn.jsdelivr.net/gh/yuanzl77/IPTV@latest/live.m3u",
+      "url": "http://175.178.251.183:6689/live.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
