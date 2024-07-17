@@ -8,6 +8,12 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "yuanzl77",
+      "url": "https://cdn.jsdelivr.net/gh/yuanzl77/IPTV@latest/live.m3u",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "综合",
       "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
