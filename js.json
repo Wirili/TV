@@ -40,15 +40,6 @@
       "changeable": 1
     },
     {
-      "key": "csp_nyys",
-      "name": "纽约影视",
-      "type": 3,
-      "api": "csp_XPathFilter",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/xpath/nyys.json"
-    },
-    {
       "key": "csp_新6V电影",
       "name": "新6V电影",
       "type": 3,
