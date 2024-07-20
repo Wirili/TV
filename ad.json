@@ -4,8 +4,8 @@
     {
       "name": "IPv6",
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
       "timeout": 10,
       "catchup": {
         "days": "7",
@@ -17,8 +17,8 @@
     {
       "name": "yuanzl77",
       "url": "http://175.178.251.183:6689/live.m3u",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
       "timeout": 10,
       "catchup": {
         "days": "7",
@@ -30,8 +30,8 @@
     {
       "name": "综合",
       "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
       "timeout": 10,
       "catchup": {
         "days": "7",
