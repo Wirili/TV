@@ -152,25 +152,6 @@
       ]
     },
     {
-      "key": "TVB云播",
-      "name": "TVB云播",
-      "type": 1,
-      "api": "http://www.tvyb03.com/api.php/provide/vod/",
-      "playUrl": "",
-      "searchable": 1,
-      "changeable": 1,
-      "header":{
-        "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.102"
-      },
-      "categories": [
-        "国产剧",
-        "电影",
-        "综艺",
-        "动漫",
-        "短剧"
-      ]
-    },
-    {
       "key": "360资源",
       "name": "360资源",
       "type": 1,
