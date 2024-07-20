@@ -193,6 +193,22 @@
       ]
     },
     {
+      "key": "TVB云播",
+      "name": "TVB云播",
+      "type": 1,
+      "api": "http://www.tvyb03.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "电视剧",
+        "电影",
+        "综艺",
+        "动漫",
+        "短剧"
+      ]
+    },
+    {
       "key": "360资源",
       "name": "360资源",
       "type": 1,
