@@ -200,6 +200,9 @@
       "playUrl": "",
       "searchable": 1,
       "changeable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.2592.102"
+      },
       "categories": [
         "电视剧",
         "电影",
