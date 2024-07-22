@@ -555,11 +555,11 @@
       "name": "快看资源",
       "type": 1,
       "api": "https://kkzy.tv/api.php/provide/vod/from/kuaikan",
+      "playUrl": "https://kkzyplayer.com/player/?url=",
       "searchable": 1,
       "changeable": 1,
       "categories": [
         "国产剧",
-        "电影",
         "欧美剧",
         "韩国剧",
         "日本剧",
