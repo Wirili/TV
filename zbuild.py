@@ -7,8 +7,8 @@ import requests
 ## jar包地址
 ## github文件加速 https://ghproxy.net
 
-strJar1 = "https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar"
-# strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+# strJar1 = "https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar"
+strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
 strJar = "https://hub.gitmirror.com/" + strJar1
 
 
