@@ -6,15 +6,21 @@ import requests
 
 ## jar包地址
 ## github文件加速 https://ghproxy.net
+# strJar = "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar"
+# strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+strJar = "https://hub.gitmirror.com/" + strJar1
 
-jar = requests.get("https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar")
+
+jar = requests.get(strJar)
 # jar = requests.get("https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar")
 
 with open("custom_spider.jar", "wb") as code:
-   code.write(jar.content)
+    code.write(jar.content)
 
 md5Rsq = requests.get(
-    "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar.md5"
+    strJar
+    + ".md5"
     # "https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar.md5"
 )
 
@@ -26,13 +32,9 @@ md5Rsq = requests.get(
 #     md5Rsq.text.strip()
 # )
 
-spider = "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;{0}".format(
-    md5Rsq.text.strip()
-)
+spider = strJar + ";md5;{0}".format(md5Rsq.text.strip())
 
-spider1 = "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar;md5;{0}".format(
-    md5Rsq.text.strip()
-)
+spider1 = strJar1 + ";md5;{0}".format(md5Rsq.text.strip())
 
 with open("./zbuild/lives.json", "r", encoding="utf-8") as f:
     lives = commentjson.load(f)
