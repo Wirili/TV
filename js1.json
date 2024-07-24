@@ -6,13 +6,8 @@
       "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/IPTV/live.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "timeout": 10,
-      "catchup": {
-        "days": "7",
-        "type": "append",
-        "regex": "/PLTV/",
-        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-      }
+      "timeout": 3,
+      "playerType": 2
     },
     {
       "name": "IPv6",
