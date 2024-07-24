@@ -45,6 +45,9 @@ def fetch_channels(url):
                     if match:
                         current_category = match.group(1).strip()
                         channel_name = match.group(2).strip()
+                        channel_name = channel_name.split(" ")[0]
+                        if(channel_name.endswith("高清") or channel_name.endswith("HD")):
+                            channel_name = channel_name.replace("高清","").replace("HD","")
                         if current_category not in channels:
                             channels[current_category] = []
                 elif line and not line.startswith("#"):
@@ -62,6 +65,9 @@ def fetch_channels(url):
                     if match:
                         channel_name = match.group(1).strip()
                         channel_url = match.group(2).strip()
+                        channel_name = channel_name.split(" ")[0]
+                        if(channel_name.endswith("高清") or channel_name.endswith("HD")):
+                            channel_name = channel_name.replace("高清","").replace("HD","")
                         channels[current_category].append((channel_name, channel_url))
                     elif line:
                         channels[current_category].append((line, ''))
@@ -132,6 +138,7 @@ def updateChannelUrlsM3U(channels, template_channels):
                     for channel_name in channel_list:
                         if channel_name in channels[category]:
                             sorted_urls = sorted(channels[category][channel_name], key=lambda url: not is_ipv6(url) if config.ip_version_priority == "ipv6" else is_ipv6(url))
+                            # sorted_urls = channels[category][channel_name]
                             filtered_urls = []
                             for url in sorted_urls:
                                 if url and url not in written_urls and not any(blacklist in url for blacklist in config.url_blacklist):
