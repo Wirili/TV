@@ -6040,18 +6040,12 @@ CETV-4,http://ddns.cyruslee.top:8888/udp/239.253.43.114:5146$LR•IPV4『线路4
 凤凰香港,http://13457610200.8866.org:2018/live/凤凰香港/index.m3u8$LR•IPV4『线路2』
 凤凰香港,http://113.64.147.87:8081/hls/38/index.m3u8$LR•IPV4『线路3』
 凤凰香港,p3p://108.181.20.159:23520/5fe0b82c000cac9774c17f262e43314d$LR•IPV4『线路4』
-凤凰卫视,p3p://108.181.20.159:23520/602c73500002f4d29c90fa1270f21160$LR•IPV4
-香港卫视,p3p://108.181.20.159:23520/655f9ff5000f136f8ebbd33f2f097512$LR•IPV4
 TVBS新闻,http://extraott.com:80/live/7921751389/6097373662/5499.m3u8$LR•IPV4『线路1』
 TVBS新闻,p3p://108.181.20.159:23520/621858e3000e70ad1217c0700d576ad0$LR•IPV4『线路2』
 翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn$LR•IPV4
 明珠台,http://php.jdshipin.com:8880/smt.php?id=pearl_twn$LR•IPV4『线路1』
 明珠台,http://1b6467f415.iok.la:9931/tsfile/live/1009_1.m3u8$LR•IPV4『线路2』
 J2,http://php.jdshipin.com:8880/smt.php?id=j2_twn$LR•IPV4
-三立台湾,http://extraott.com:80/live/7921751389/6097373662/5505.m3u8$LR•IPV4『线路1』
-三立台湾,p3p://108.181.20.159:23520/5fe2947f000c58a57c0623474ae64e07$LR•IPV4『线路2』
-三立新闻,p3p://108.181.32.169:24350/64251e23000bcd04ea573d7c0f0a002e$LR•IPV4『线路1』
-三立新闻,p3p://108.181.20.159:23520/6014c896000c7101401f67cc5477681b$LR•IPV4『线路2』
 影视频道,#genre#
 CHC高清电影,http://ddns.cyruslee.top:8888/udp/239.77.0.27:5146$LR•IPV4『线路1』
 CHC高清电影,http://115.45.102.23:8888/udp/239.77.0.27:5146$LR•IPV4『线路2』
@@ -6131,56 +6125,4 @@ CHC家庭影院,p3p://108.181.20.159:23520/63ec4d000006b5ebe4468ed8604807ac$LR�
 纬来电影,http://extraott.com:80/live/7921751389/6097373662/5493.m3u8$LR•IPV4『线路1』
 纬来电影,p3p://108.181.32.169:24350/64251eae0001bef7ea5959e100ae671e$LR•IPV4『线路2』
 纬来电影,p3p://108.181.20.159:23520/62c860e50008ea96c1ae9a96599c6947$LR•IPV4『线路3』
-靖天映画,p3p://108.181.20.159:23520/6258eae500040fd80e4f0b2311754279$LR•IPV4『线路1』
-靖天映画,P2p://generationnexxxt.com:19806/02870872a71c4d2296b35dd02d5a9973$LR•IPV4『线路2』
-靖天戏剧,p3p://108.181.20.159:23520/612db70e000298f98975294e4645098b$LR•IPV4
-明星系列,#genre#
-周星驰,https://live.metshop.top/huya/11342412$LR•IPV4『线路1』
-周星驰,http://43.138.170.29:35455/yy/1354658049$LR•IPV4『线路2』
-周星驰,http://43.138.170.29:35455/yy/1382736808$LR•IPV4『线路3』
-李连杰,https://live.metshop.top/huya/11342390$LR•IPV4『线路1』
-李连杰,http://43.138.170.29:35455/yy/74613175$LR•IPV4『线路2』
-甄子丹,https://live.metshop.top/huya/11352935$LR•IPV4
-刘德华,https://live.metshop.top/huya/11342424$LR•IPV4『线路1』
-刘德华,http://43.138.170.29:35455/yy/1382745111$LR•IPV4『线路2』
-刘德华,p3p://108.181.20.159:23520/607c5f3d000e7ec0d4bf07062e2e76f8$LR•IPV4『线路3』
-邱淑贞,https://live.metshop.top/huya/11352949$LR•IPV4
-女神系列,https://live.metshop.top/huya/11336571$LR•IPV4
-赌片,https://live.metshop.top/huya/11342399$LR•IPV4
-bang派,https://live.metshop.top/huya/11336719$LR•IPV4
-科幻动作,https://live.metshop.top/huya/11352964$LR•IPV4『线路1』
-科幻动作,http://43.138.170.29:35455/douyu/4332$LR•IPV4『线路2』
-国产喜剧,https://live.metshop.top/huya/11602044$LR•IPV4
-五福星,https://live.metshop.top/huya/11282233$LR•IPV4
-古墓系列,https://live.metshop.top/huya/11352913$LR•IPV4
-灾难电影,https://live.metshop.top/huya/11352871$LR•IPV4
-港片,https://live.metshop.top/huya/11602043$LR•IPV4
-灾难片,https://live.metshop.top/huya/11602075$LR•IPV4
-奇幻片,https://live.metshop.top/huya/16149609$LR•IPV4
-悬疑片,https://live.metshop.top/huya/16099968$LR•IPV4
-香港贺岁,https://live.metshop.top/huya/11601971$LR•IPV4
-贺岁合家欢剧场,https://live.metshop.top/huya/11602067$LR•IPV4
-恐怖片,https://live.metshop.top/huya/16741179$LR•IPV4
-历年贺岁档,https://live.metshop.top/huya/11601986$LR•IPV4
-李世民,https://live.metshop.top/huya/11336572$LR•IPV4
-港产搞笑,https://live.metshop.top/huya/11342423$LR•IPV4
-滇军抗战,https://live.metshop.top/huya/11342388$LR•IPV4
-经典女神,https://live.metshop.top/huya/11352909$LR•IPV4
-爱情公寓,https://live.metshop.top/huya/11336726$LR•IPV4
-士兵突击,https://live.metshop.top/huya/11342430$LR•IPV4
-玄幻剧场,https://live.metshop.top/huya/11342414$LR•IPV4
-联合抗日,https://live.metshop.top/huya/11352910$LR•IPV4
-三国演义,https://live.metshop.top/huya/11602081$LR•IPV4『线路1』
-三国演义,p3p://108.181.20.159:23520/603923630003b266ce20536c65220246$LR•IPV4『线路2』
-三国,https://live.metshop.top/huya/11352944$LR•IPV4
-新水浒传,https://live.metshop.top/huya/11342384$LR•IPV4
-神探狄仁杰2,https://live.metshop.top/huya/11342425$LR•IPV4
-神雕侠侣,https://live.metshop.top/huya/23865171$LR•IPV4
-笑傲江湖,https://live.metshop.top/huya/23865142$LR•IPV4『线路1』
-笑傲江湖,https://vip.ffzy-play7.com/20221129/7696_58fbd289/index.m3u8$LR•IPV4『线路2』
-埋堆堆布衣神相,https://live.metshop.top/huya/23865036$LR•IPV4
-纪晓岚,https://live.metshop.top/huya/11342396$LR•IPV4
-雍正皇帝,https://live.metshop.top/huya/11342439$LR•IPV4
-许冠英合集,https://live.metshop.top/huya/11601972$LR•IPV4
-经典港剧笑嘻嘻,https://live.metshop.top/huya/11352965$LR•IPV4
 
