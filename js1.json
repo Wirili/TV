@@ -28,8 +28,8 @@
       }
     },
     {
-      "name": "yuanzl77",
-      "url": "http://175.178.251.183:6689/live.m3u",
+      "name": "TV",
+      "url": "https://raw.githubusercontent.com/Wirili/TV/main/IPTV/live.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
       "timeout": 10,
