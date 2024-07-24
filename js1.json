@@ -2,6 +2,19 @@
   "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;3eb80d3f9fc40b9470b262c4c66b39f6",
   "lives": [
     {
+      "name": "TV",
+      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/IPTV/live.txt",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "timeout": 10,
+      "catchup": {
+        "days": "7",
+        "type": "append",
+        "regex": "/PLTV/",
+        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      }
+    },
+    {
       "name": "IPv6",
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -17,19 +30,6 @@
     {
       "name": "PDX-V4",
       "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "timeout": 10,
-      "catchup": {
-        "days": "7",
-        "type": "append",
-        "regex": "/PLTV/",
-        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-      }
-    },
-    {
-      "name": "TV",
-      "url": "https://raw.githubusercontent.com/Wirili/TV/main/IPTV/live.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
       "timeout": 10,
