@@ -6,7 +6,8 @@
       "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "timeout": 3
+      "timeout": 3,
+      "playerType": 2
     },
     {
       "name": "IPv6",
@@ -26,14 +27,16 @@
       "url": "https://gitee.com/ds360/ds/raw/master/ZB/lunbo.jpg",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "timeout": 3
+      "timeout": 3,
+      "playerType": 2
     },
     {
       "name": "PDX-V4",
       "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "timeout": 10,
+      "timeout": 3,
+      "playerType": 2,
       "catchup": {
         "days": "7",
         "type": "append",
