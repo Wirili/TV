@@ -6,8 +6,7 @@
       "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "timeout": 3,
-      "playerType": 2
+      "timeout": 3
     },
     {
       "name": "IPv6",
