@@ -6,7 +6,7 @@
       "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "timeout": 3,
+      "timeout": 5,
       "playerType": 2
     },
     {
@@ -27,7 +27,7 @@
       "url": "http://175.178.251.183:6689/live.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "timeout": 3,
+      "timeout": 5,
       "playerType": 2
     },
     {
