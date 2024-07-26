@@ -23,6 +23,14 @@
       }
     },
     {
+      "name": "yuanzl77",
+      "url": "http://175.178.251.183:6689/live.txt",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "timeout": 3,
+      "playerType": 2
+    },
+    {
       "name": "轮播",
       "url": "https://gitee.com/ds360/ds/raw/master/ZB/lunbo.jpg",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
