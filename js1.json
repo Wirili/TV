@@ -96,27 +96,6 @@
       "changeable": 0
     },
     {
-      "key": "央视库",
-      "name": "央视库(py)",
-      "type": 3,
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_央库云.py"
-    },
-    {
-      "key": "央视直播",
-      "name": "央视直播(py)",
-      "type": 3,
-      "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/TV/main/py/py/py_1712024cntv.py",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
       "key": "华为吧资源",
       "name": "华为吧资源",
       "type": 1,
