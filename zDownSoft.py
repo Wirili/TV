@@ -27,6 +27,7 @@ if __name__ == "__main__":
         "mobile-python-arm64_v8a.apk": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile-python-arm64_v8a.apk",
         "leanback.json": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback.json",
         "mobile.json": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/mobile.json",
+        "CatVodSpider.zip": "https://codeload.github.com/FongMi/CatVodSpider/zip/refs/heads/main",
     }
 
     for item in lists:
