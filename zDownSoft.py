@@ -20,6 +20,7 @@ if __name__ == "__main__":
         "OK_leanback-python-arm64_v8a.apk": "https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-arm64_v8a.apk",
         "OK_leanback-python-armeabi_v7a.apk": "https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
         "OK_mobile-python-arm64_v8a.apk": "https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-arm64_v8a.apk",
+        "OK_leanback_4.1.apk": "https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
         "OK_leanback.json": "https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback.json",
         "OK_mobile.json": "https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile.json",
         "leanback-python-arm64_v8a.apk": "https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/release/leanback-python-arm64_v8a.apk",

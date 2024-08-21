@@ -1,5 +1,5 @@
 {
-  "code": 246,
-  "name": "2.4.6",
-  "desc": "* [共通]\n* 更新 dlna\n* 更新 media3\n* 更新 nanohttpd\n* 還原 aes res base64 處理\n* 支持跑路道長配置的相對路徑"
+  "code": 251,
+  "name": "2.5.1",
+  "desc": "* [EXO]\n* 修正硬解卡頓\n* [停更]\n* 真的跑路了"
 }
