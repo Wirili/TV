@@ -10,7 +10,7 @@ import requests
 # strJar1 = "https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar"
 strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
 # strJar = "https://hub.gitmirror.com/" + strJar1
-strJar = "https://ghproxy.com/" + strJar1
+strJar = "https://ghproxy.net/" + strJar1
 
 
 jar = requests.get(strJar)

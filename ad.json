@@ -1,16 +1,16 @@
 {
-  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe",
   "lives": [
     {
       "name": "TV",
-      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4
     },
     {
       "name": "TV2",
-      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Wirili/IPTV/main/live2.txt",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Wirili/IPTV/main/live2.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4
@@ -44,7 +44,7 @@
     },
     {
       "name": "PDX-V4",
-      "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4,
