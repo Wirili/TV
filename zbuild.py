@@ -11,12 +11,13 @@ import requests
 strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
 # strJar = "https://hub.gitmirror.com/" + strJar1
 strJar = "https://gh-proxy.com/" + strJar1
+# strJar = "https://cdn.jsdelivr.net/gh/Wirili/TV@main/custom_spider.txt"
 
 
 jar = requests.get(strJar)
 # jar = requests.get("https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar")
 
-with open("custom_spider.jar", "wb") as code:
+with open("custom_spider.txt", "wb") as code:
     code.write(jar.content)
 
 md5Rsq = requests.get(
@@ -33,7 +34,7 @@ md5Rsq = requests.get(
 #     md5Rsq.text.strip()
 # )
 
-spider = strJar + ";md5;{0}".format(md5Rsq.text.strip())
+spider = "https://cdn.jsdelivr.net/gh/Wirili/TV@main/custom_spider.txt" + ";md5;{0}".format(md5Rsq.text.strip())
 
 spider1 = strJar1 + ";md5;{0}".format(md5Rsq.text.strip())
 
