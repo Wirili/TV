@@ -36,13 +36,6 @@
       "timeout": 4
     },
     {
-      "name": "轮播",
-      "url": "https://gitee.com/ds360/ds/raw/master/ZB/lunbo.jpg",
-      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 4
-    },
-    {
       "name": "综合",
       "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
