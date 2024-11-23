@@ -71,14 +71,6 @@
   ],
   "sites": [
     {
-      "key": "csp_Douban",
-      "name": "豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_荐片",
       "name": "荐片",
       "type": 3,
