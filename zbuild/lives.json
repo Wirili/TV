@@ -3,14 +3,14 @@
   "lives": [
     {
       "name": "TV",
-      "url": "https://cdn.jsdelivr.net/gh/Wirili/IPTV@main/live.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4,
     },
     {
       "name": "TV2",
-      "url": "https://cdn.jsdelivr.net/gh/Wirili/IPTV@main/live2.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/IPTV/main/live2.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4,
@@ -34,6 +34,26 @@
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4,
+    },
+    {
+      "name": "轮播",
+      "url": "https://gitee.com/ds360/ds/raw/master/ZB/lunbo.jpg",
+      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
+      "logo": "https://epg.112114.free.hr/logo/{name}.png",
+      "timeout": 4,
+    },
+    {
+      "name": "PDX-V4",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
+      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
+      "logo": "https://epg.112114.free.hr/logo/{name}.png",
+      "timeout": 4,
+      "catchup": {
+        "days": "7",
+        "type": "append",
+        "regex": "/PLTV/",
+        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      }
     },
     {
       "name": "综合",
