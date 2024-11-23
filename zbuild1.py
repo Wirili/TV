@@ -17,7 +17,7 @@ strJar = "https://gh-proxy.com/" + strJar1
 jar = requests.get(strJar)
 # jar = requests.get("https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar")
 
-with open("custom_spider.txt", "wb") as code:
+with open("custom_spider.jpg", "wb") as code:
     code.write(jar.content)
 
 md5Rsq = requests.get(
@@ -34,7 +34,7 @@ md5Rsq = requests.get(
 #     md5Rsq.text.strip()
 # )
 
-spider = "https://cdn.jsdelivr.net/gh/Wirili/TV@main/custom_spider.txt" + ";md5;{0}".format(md5Rsq.text.strip())
+spider = "https://cdn.jsdelivr.net/gh/Wirili/TV@main/custom_spider.jpg" + ";md5;{0}".format(md5Rsq.text.strip())
 
 spider1 = strJar1 + ";md5;{0}".format(md5Rsq.text.strip())
 
