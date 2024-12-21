@@ -8,14 +8,13 @@ import requests
 ## github文件加速 https://ghproxy.net
 
 # strJar1 = "https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar"
-strJar1 = "https://raw.githubusercontent.com/Wirili/TV/main/custom_spider.jar"
-# strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
 # strJar = "https://hub.gitmirror.com/" + strJar1
 strJar = "https://gh-proxy.com/" + strJar1
 
 
-# jar = requests.get(strJar)
-jar = requests.get("https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar")
+jar = requests.get(strJar)
+# jar = requests.get("https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar")
 
 with open("custom_spider.jar", "wb") as code:
     code.write(jar.content)
