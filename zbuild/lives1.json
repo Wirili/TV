@@ -1,5 +1,5 @@
 {
-  "lives_old": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
+  "lives_old": "https://ghgo.xyz/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
   "lives": [
     {
       "name": "TV",
@@ -52,7 +52,7 @@
   "lives_aduit": [
     {
       "name": "Aduit",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt",
+      "url": "https://ghgo.xyz/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}"
     }
   ]
