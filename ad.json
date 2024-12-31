@@ -5,68 +5,43 @@
       "name": "TV",
       "url": "https://ghgo.xyz/https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 4
+      "logo": "https://epg.112114.free.hr/logo/{name}.png"
     },
     {
       "name": "TV2",
       "url": "https://ghgo.xyz/https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live2.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 4
+      "logo": "https://epg.112114.free.hr/logo/{name}.png"
     },
     {
       "name": "IPv6",
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 10,
-      "catchup": {
-        "days": "7",
-        "type": "append",
-        "regex": "/PLTV/",
-        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-      }
+      "logo": "https://epg.112114.free.hr/logo/{name}.png"
     },
     {
       "name": "yuanzl77",
       "url": "http://175.178.251.183:6689/live.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 4
+      "logo": "https://epg.112114.free.hr/logo/{name}.png"
     },
     {
       "name": "轮播",
       "url": "https://gitee.com/ds360/ds/raw/master/ZB/lunbo.jpg",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 4
+      "logo": "https://epg.112114.free.hr/logo/{name}.png"
     },
     {
       "name": "PDX-V4",
       "url": "https://ghgo.xyz/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 4,
-      "catchup": {
-        "days": "7",
-        "type": "append",
-        "regex": "/PLTV/",
-        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-      }
+      "logo": "https://epg.112114.free.hr/logo/{name}.png"
     },
     {
       "name": "综合",
       "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 10,
-      "catchup": {
-        "days": "7",
-        "type": "append",
-        "regex": "/PLTV/",
-        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-      }
+      "logo": "https://epg.112114.free.hr/logo/{name}.png"
     }
   ],
   "sites": [

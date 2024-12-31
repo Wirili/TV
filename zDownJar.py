@@ -25,9 +25,9 @@ if __name__ == "__main__":
     }
 
     lists = {
-        # "饭太硬": "http://饭太硬.ml/tv",
+        "饭太硬": "http://www.饭太硬.com/tv",
         # "肥猫": "http://我不是.肥猫.love:63/接口禁止贩卖",
-        "牛蛙": "http://tvbox.王二小放牛娃.xyz",
+        # "牛蛙": "http://tvbox.王二小放牛娃.xyz",
         # "OK1": "http://ok321.top/tv",
         # "OK2": "http://ok321.top/ok",
     }
