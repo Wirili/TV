@@ -1,16 +1,16 @@
 {
-  "lives_old": "https://gh.idayer.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
+  "lives_old": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/TV/main/live/tmLive.js",
   "lives": [
     {
       "name": "TV",
-      "url": "https://gh.idayer.com/https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4
     },
     {
       "name": "TV2",
-      "url": "https://gh.idayer.com/https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live2.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live2.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4
@@ -38,7 +38,7 @@
     },
     {
       "name": "PDX-V4",
-      "url": "https://gh.idayer.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
       "logo": "https://epg.112114.free.hr/logo/{name}.png",
       "timeout": 4
@@ -54,7 +54,7 @@
   "lives_aduit": [
     {
       "name": "Aduit",
-      "url": "https://gh.idayer.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt",
       "epg": "https://epg.112114.free.hr/?ch={name}&date={date}"
     }
   ]
