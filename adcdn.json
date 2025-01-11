@@ -3,51 +3,44 @@
   "lives": [
     {
       "name": "TV",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.txt",
-      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
-      "timeout": 4
-    },
-    {
-      "name": "TV2",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live2.txt",
-      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
+      "url": "https://cdn.jsdelivr.net/gh/Wirili/IPTV@main/live.txt",
+      "epg": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/pp.xml?ch={name}&date={date}",
+      "logo": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/logo/{name}.png",
       "timeout": 4
     },
     {
       "name": "IPv6",
       "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
+      "epg": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/pp.xml?ch={name}&date={date}",
+      "logo": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/logo/{name}.png",
       "timeout": 4
     },
     {
       "name": "yuanzl77",
       "url": "http://175.178.251.183:6689/live.txt",
-      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
+      "epg": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/pp.xml?ch={name}&date={date}",
+      "logo": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/logo/{name}.png",
       "timeout": 4
     },
     {
       "name": "轮播",
       "url": "https://gitee.com/ds360/ds/raw/master/ZB/lunbo.jpg",
-      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
+      "epg": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/pp.xml?ch={name}&date={date}",
+      "logo": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/logo/{name}.png",
       "timeout": 4
     },
     {
       "name": "PDX-V4",
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
-      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
+      "epg": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/pp.xml?ch={name}&date={date}",
+      "logo": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/logo/{name}.png",
       "timeout": 4
     },
     {
       "name": "综合",
       "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
-      "epg": "https://epg.112114.free.hr/?ch={name}&date={date}",
-      "logo": "https://epg.112114.free.hr/logo/{name}.png",
+      "epg": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/pp.xml?ch={name}&date={date}",
+      "logo": "https://cdn.jsdelivr.net/gh/sparkssssssssss/epg@main/logo/{name}.png",
       "timeout": 4
     }
   ],

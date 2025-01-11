@@ -49,21 +49,6 @@ with open("./zbuild/rules.json", "r", encoding="utf-8") as f:
 with open("./zbuild/ads.json", "r", encoding="utf-8") as f:
     ads = commentjson.load(f)
 
-# lives["lives"].append(
-#     {
-#         "group": "redirect",
-#         "channels": [
-#             {
-#                 "name": "LiveX",
-#                 "urls": [
-#                     "proxy://do=live&type=txt&ext="
-#                     + base64.b64encode(lives["lives_old"].encode("utf-8")).decode()
-#                 ],
-#             }
-#         ],
-#     }
-# )
-
 # 默认js
 js = {
     "spider": spider,
