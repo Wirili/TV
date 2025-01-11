@@ -26,7 +26,7 @@ with open("custom_spider.jar", "wb") as code:
 
 md5txt = hashlib.new('md5', jar.content).hexdigest()
 
-spider = "https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar" + ";md5;{0}".format(md5txt)
+spider = proxy + "https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar" + ";md5;{0}".format(md5txt)
 
 spider1 = strJar1 + ";md5;{0}".format(md5txt)
 
