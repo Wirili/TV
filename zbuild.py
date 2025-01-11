@@ -1,6 +1,7 @@
 import commentjson
 import base64
 import requests
+import hashlib
 
 ## 需要安装 pip install commentjson
 
@@ -10,7 +11,8 @@ import requests
 # strJar1 = "https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar"
 strJar1 = "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
 # strJar = "https://hub.gitmirror.com/" + strJar1
-strJar = "https://gh-proxy.com/" + strJar1
+proxy = "https://gh-proxy.com/"
+strJar = proxy + strJar1
 # strJar = "https://ghgo.xyz/" + strJar1
 # strJar = "https://gh.idayer.com/" + strJar1
 # strJar = "https://ghproxy.cc/" + strJar1
@@ -22,26 +24,14 @@ jar = requests.get(strJar)
 with open("custom_spider.jar", "wb") as code:
     code.write(jar.content)
 
-md5Rsq = requests.get(
-    strJar
-    + ".md5"
-    # "https://hub.gitmirror.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar.md5"
-)
+md5txt = hashlib.new('md5', jar.content).hexdigest()
 
-# spider = "https://ghproxy.net/https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar;md5;{0}".format(
-#     md5Rsq.text.strip()
-# )
+spider = "https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar" + ";md5;{0}".format(md5txt)
 
-# spider1 = "https://raw.githubusercontent.com/Wirili/TvJar/main/custom_spider.jar;md5;{0}".format(
-#     md5Rsq.text.strip()
-# )
-
-spider = strJar + ";md5;{0}".format(md5Rsq.text.strip())
-
-spider1 = strJar1 + ";md5;{0}".format(md5Rsq.text.strip())
+spider1 = strJar1 + ";md5;{0}".format(md5txt)
 
 with open("./zbuild/lives.json", "r", encoding="utf-8") as f:
-    lives = commentjson.load(f)
+    lives = commentjson.loads(f.read().replace("*代理*",proxy))
 
 with open("./zbuild/sites.json", "r", encoding="utf-8") as f:
     sites = commentjson.load(f)

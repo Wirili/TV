@@ -2,7 +2,7 @@
   "lives": [
     {
       "name": "TV",
-      "url": "https://cdn.jsdelivr.net/gh/Wirili/IPTV@main/live.txt",
+      "url": "*代理*https://raw.githubusercontent.com/Wirili/IPTV/refs/heads/main/live.txt",
       "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
       "logo": "https://epg.v1.mk/logo/{name}.png",
       "timeout": 4
@@ -17,27 +17,6 @@
     {
       "name": "yuanzl77",
       "url": "http://175.178.251.183:6689/live.txt",
-      "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
-      "logo": "https://epg.v1.mk/logo/{name}.png",
-      "timeout": 4
-    },
-    {
-      "name": "轮播",
-      "url": "https://gitee.com/ds360/ds/raw/master/ZB/lunbo.jpg",
-      "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
-      "logo": "https://epg.v1.mk/logo/{name}.png",
-      "timeout": 4
-    },
-    {
-      "name": "PDX-V4",
-      "url": "*代理*https://raw.githubusercontent.com/Fairy8o/IPTV/main/PDX-V4.txt",
-      "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
-      "logo": "https://epg.v1.mk/logo/{name}.png",
-      "timeout": 4
-    },
-    {
-      "name": "综合",
-      "url": "https://live.fanmingming.com/tv/m3u/index.m3u",
       "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
       "logo": "https://epg.v1.mk/logo/{name}.png",
       "timeout": 4
