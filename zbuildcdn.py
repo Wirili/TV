@@ -68,7 +68,7 @@ js1 = {
     "ads": ads["ads"],
 }
 
-with open("./jscdn1.json", "w", encoding="utf-8") as f:
+with open("./jscdn2.json", "w", encoding="utf-8") as f:
     commentjson.dump(js, f, ensure_ascii=False, indent=2)
 
 with open("./js1.json", "w", encoding="utf-8") as f:
