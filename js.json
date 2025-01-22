@@ -89,7 +89,7 @@
       "key": "如意资源",
       "name": "如意资源",
       "type": 1,
-      "api": "https://cj.rycjapi.com/api.php/provide/vod/",
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/from/rym3u8/",
       "playUrl": "",
       "searchable": 1,
       "changeable": 1,
