@@ -57,22 +57,6 @@
       "changeable": 0
     },
     {
-      "key": "csp_星牙短剧",
-      "name": "星牙短剧",
-      "type": 3,
-      "api": "csp_AppXY",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_樱花动漫",
-      "name": "樱花动漫",
-      "type": 3,
-      "api": "csp_YHDM",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "华为吧资源",
       "name": "华为吧资源",
       "type": 1,
