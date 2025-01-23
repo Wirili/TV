@@ -17,6 +17,14 @@
       "changeable": 1
     },
     {
+      "key": "csp_聚合直播",
+      "name": "聚合直播",
+      "type": 3,
+      "api": "csp_Living",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "csp_PTT",
       "name": "PTT",
       "type": 3,
@@ -31,6 +39,22 @@
       "api": "csp_Xb6v",
       "searchable": 1,
       "changeable": 0
+    },
+    {
+      "key": "csp_星牙短剧",
+      "name": "星牙短剧",
+      "type": 3,
+      "api": "csp_AppXY",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_樱花动漫",
+      "name": "樱花动漫",
+      "type": 3,
+      "api": "csp_YHDM",
+      "searchable": 1,
+      "changeable": 1
     },
     // {
     //   "key": "csp_Lzzy",
