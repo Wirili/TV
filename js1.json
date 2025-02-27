@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;3cbe660633a395f10a0ae0ee543e935a",
+  "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;5e53c8f9ddd4ede5359c16bee091db93",
   "lives": [
     {
       "name": "TV",
@@ -7,6 +7,21 @@
       "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
       "logo": "https://epg.v1.mk/logo/{name}.png",
       "timeout": 4
+    },
+    {
+      "name": "XtreamCode",
+      "api": "csp_XtreamCode",
+      "url": "http://iptv.icsnleb.com:25461/player_api.php?username=12&password=12",
+      "epg": "http://iptv.icsnleb.com:25461/xmltv.php?username=12&password=12",
+      "type": 3,
+      "ext": {
+        "live": true,
+        "vod": true,
+        "formats": [
+          "m3u8",
+          "ts"
+        ]
+      }
     },
     {
       "name": "IPv6",
