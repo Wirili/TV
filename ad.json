@@ -51,7 +51,7 @@
       "key": "小鸡资源",
       "name": "小鸡资源",
       "type": 0,
-      "api": "https://api.xiaojizy.live/provide/vod/",
+      "api": "https://api.xiaojizy.live/provide/vod?ac=list",
       "searchable": 1,
       "filterable": 1
     },
