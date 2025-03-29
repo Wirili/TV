@@ -51,15 +51,9 @@
       "key": "小鸡资源",
       "name": "小鸡资源",
       "type": 0,
-      "api": "https://api.xiaojizy.live/provide/vod/",
+      "api": "http://api.xiaojizy.live/provide/vod/",
       "searchable": 1,
-      "filterable": 1,
-      "header": {
-        ":authority": "api.xiaojizy.live",
-        "accept-encoding":"gzip, deflate, br, zstd",
-        "sec-ch-ua-platform":"\"Windows\"",
-        "user-agent:": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0"
-      }
+      "filterable": 1
     },
     {
       "key": "百万资源",
