@@ -32,14 +32,14 @@
       "searchable": 1,
       "changeable": 1
     },
-    {
-      "key": "csp_新6V电影",
-      "name": "新6V电影",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "searchable": 1,
-      "changeable": 0
-    },
+    // {
+    //   "key": "csp_新6V电影",
+    //   "name": "新6V电影",
+    //   "type": 3,
+    //   "api": "csp_Xb6v",
+    //   "searchable": 1,
+    //   "changeable": 0
+    // },
     // {
     //   "key": "csp_星牙短剧",
     //   "name": "星牙短剧",
@@ -508,6 +508,14 @@
         "剧情片",
         "伦理片"
       ]
+    },
+    {
+      "key": "牛牛资源",
+      "name": "牛牛资源",
+      "type": 1,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1
     },
     {
       "key": "鸭鸭资源",
