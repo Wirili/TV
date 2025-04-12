@@ -57,30 +57,6 @@
       "filterable": 1
     },
     {
-      "key": "小鸡资源",
-      "name": "小鸡资源",
-      "type": 0,
-      "api": "https://api.xiaojizy.live/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "百万资源",
-      "name": "百万资源",
-      "type": 0,
-      "api": "https://api.bwzym3u8.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "GAY资源",
-      "name": "GAY资源",
-      "type": 0,
-      "api": "https://gayapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
       "key": "鲨鱼资源",
       "name": "鲨鱼资源",
       "type": 1,
@@ -173,46 +149,6 @@
       "name": "乐播资源",
       "type": 1,
       "api": "https://lbapi9.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "奥斯卡资源",
-      "name": "奥斯卡资源",
-      "type": 0,
-      "api": "https://aosikazy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "CK资源",
-      "name": "CK资源",
-      "type": 0,
-      "api": "https://ckzy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "桃花资源",
-      "name": "桃花资源",
-      "type": 0,
-      "api": "https://thzy1.me/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "X细胞资源",
-      "name": "X细胞资源",
-      "type": 0,
-      "api": "https://www.xxibaozyw.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "草榴资源",
-      "name": "草榴资源",
-      "type": 0,
-      "api": "https://www.caoliuzyw.com/api.php/prodao/vod/",
       "searchable": 1,
       "filterable": 1
     },
