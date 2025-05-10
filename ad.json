@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar;md5;fd389e3446f23e76f9112a2097d81884",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar;md5;6286b095a005799c81f27da197beb39f",
   "lives": [
     {
       "name": "TV",
@@ -124,6 +124,14 @@
       "name": "115资源",
       "type": 1,
       "api": "https://155api.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "奥斯卡资源",
+      "name": "奥斯卡资源",
+      "type": 1,
+      "api": "https://aosikazy.com/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1
     },

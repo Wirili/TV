@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;fd389e3446f23e76f9112a2097d81884",
+  "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;6286b095a005799c81f27da197beb39f",
   "lives": [
     {
       "name": "TV",
