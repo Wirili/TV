@@ -48,19 +48,6 @@
       "changeable": 1
     },
     {
-      "name": "九店",
-      "type": 3,
-      "api": "csp_MQiTV",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": [
-        {
-          "name": "59",
-          "url": "https://59.125.210.231:4433"
-        }
-      ]
-    },
-    {
       "key": "csp_PTT",
       "name": "PTT",
       "type": 3,
