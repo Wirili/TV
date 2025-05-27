@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar;md5;6286b095a005799c81f27da197beb39f",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar;md5;b3f144d34651b79384fc9e1ca4e3e310",
   "lives": [
     {
       "name": "TV",
@@ -46,6 +46,19 @@
       "api": "csp_Jianpian",
       "searchable": 1,
       "changeable": 1
+    },
+    {
+      "name": "九店",
+      "type": 3,
+      "api": "csp_MQiTV",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": [
+        {
+          "name": "59",
+          "url": "https://59.125.210.231:4433"
+        }
+      ]
     },
     {
       "key": "csp_PTT",
@@ -165,6 +178,78 @@
         "日韩动漫",
         "欧美动漫",
         "倫理片"
+      ]
+    },
+    {
+      "key": "木耳资源",
+      "name": "木耳资源",
+      "type": 1,
+      "api": "https://json02.heimuer.xyz/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "泰剧",
+        "台剧",
+        "欧美剧",
+        "国产动漫",
+        "日本动漫",
+        "国产综艺",
+        "港台综艺",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "动画片",
+        "冒险片",
+        "武侠片",
+        "科幻片",
+        "战争片",
+        "恐怖片",
+        "灾难片",
+        "悬疑片",
+        "纪录片",
+        "惊悚片",
+        "奇幻片",
+        "剧情片"
+      ]
+    },
+    {
+      "key": "电影天堂",
+      "name": "电影天堂",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "韩国剧",
+        "日本剧",
+        "香港剧",
+        "泰国剧",
+        "台湾剧",
+        "欧美剧",
+        "国产动漫",
+        "日韩动漫",
+        "大陆综艺",
+        "港台综艺",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "动画片",
+        "冒险片",
+        "武侠片",
+        "科幻片",
+        "战争片",
+        "恐怖片",
+        "灾难片",
+        "悬疑片",
+        "纪录片",
+        "惊悚片",
+        "奇幻片",
+        "剧情片"
       ]
     },
     {
