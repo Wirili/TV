@@ -40,62 +40,6 @@
   ],
   "sites": [
     {
-      "key": "玖玖资源",
-      "name": "玖玖资源",
-      "type": 0,
-      "api": "http://99cjz.com/inc/ck.php?ac=videolist",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "鲨鱼资源",
-      "name": "鲨鱼资源",
-      "type": 1,
-      "api": "http://sybyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "丝袜资源",
-      "name": "丝袜资源",
-      "type": 1,
-      "api": "https://www.siwazyw.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "奶香香资源",
-      "name": "奶香香资源",
-      "type": 1,
-      "api": "https://naixxzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "色色资源",
-      "name": "色色资源",
-      "type": 0,
-      "api": "http://sscjz.com/inc/sapi.php?ac=videolist",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "色猫资源",
-      "name": "色猫资源",
-      "type": 0,
-      "api": "https://caiji.semaozy.net/inc/api.php",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "久草在线",
-      "name": "久草在线",
-      "type": 0,
-      "api": "http://9ccjz.com/api?ac=videolist",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
       "key": "番号资源",
       "name": "番号资源",
       "type": 1,
@@ -140,22 +84,6 @@
       "name": "乐播资源",
       "type": 1,
       "api": "https://lbapi9.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "f2dcj6.com",
-      "name": "成人16",
-      "type": 0,
-      "api": "http://f2dcj6.com/sapi?ac=videolist",
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
-      "key": "api.maozyapi.com",
-      "name": "成人27",
-      "type": 1,
-      "api": "https://api.maozyapi.com/inc/apijson_vod.php",
       "searchable": 1,
       "filterable": 1
     },
