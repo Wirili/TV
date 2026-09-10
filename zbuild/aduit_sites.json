@@ -56,14 +56,14 @@
     //   "searchable": 1,
     //   "filterable": 1
     // },
-    {
-      "key": "鲨鱼资源",
-      "name": "鲨鱼资源",
-      "type": 1,
-      "api": "http://sybyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
+    // {
+    //   "key": "鲨鱼资源",
+    //   "name": "鲨鱼资源",
+    //   "type": 1,
+    //   "api": "http://sybyapi.com/api.php/provide/vod/",
+    //   "searchable": 1,
+    //   "filterable": 1
+    // },
     // {
     //   "key": "丝袜资源",
     //   "name": "丝袜资源",
@@ -152,14 +152,14 @@
       "searchable": 1,
       "filterable": 1
     },
-    {
-      "key": "奥斯卡资源",
-      "name": "奥斯卡资源",
-      "type": 1,
-      "api": "https://aosikazy1.com/api.php/provide/vod/",
-      "searchable": 1,
-      "filterable": 1
-    },
+    // {
+    //   "key": "奥斯卡资源",
+    //   "name": "奥斯卡资源",
+    //   "type": 1,
+    //   "api": "https://aosikazy1.com/api.php/provide/vod/",
+    //   "searchable": 1,
+    //   "filterable": 1
+    // },
     {
       "key": "xrbsp.com",
       "name": "成人30",
