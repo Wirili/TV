@@ -152,6 +152,78 @@
       "searchable": 1,
       "filterable": 1
     },
+    {
+      "key": "小鸡资源",
+      "name": "小鸡资源",
+      "type": 1,
+      "api": "https://api.xjzyapi.com/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "极品资源",
+      "name": "极品资源",
+      "type": 1,
+      "api": "https://jipinvip1.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "天美资源",
+      "name": "天美资源",
+      "type": 1,
+      "api": "https://tmzyz.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "桃花资源",
+      "name": "桃花资源",
+      "type": 1,
+      "api": "https://thzy1.me/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "CK资源",
+      "name": "CK资源",
+      "type": 1,
+      "api": "https://ckzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "大奶子资源",
+      "name": "大奶子资源",
+      "type": 1,
+      "api": "https://apidanaizi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "JKun资源",
+      "name": "JKun资源",
+      "type": 1,
+      "api": "https://jkunzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "滴滴资源",
+      "name": "滴滴资源",
+      "type": 1,
+      "api": "https://api.ddapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "豆豆资源",
+      "name": "豆豆资源",
+      "type": 1,
+      "api": "https://api.douapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
     // {
     //   "key": "奥斯卡资源",
     //   "name": "奥斯卡资源",
