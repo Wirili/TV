@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar;md5;fe1c0645034f7063eceec49e9c0f5c72",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/Wirili/TV/refs/heads/main/custom_spider.jar;md5;dbc93cb9a14cff520dc4f26e6eddb68c",
   "lives": [
     {
       "name": "TV",
@@ -39,6 +39,14 @@
     }
   ],
   "sites": [
+    {
+      "key": "鲨鱼资源",
+      "name": "鲨鱼资源",
+      "type": 1,
+      "api": "http://sybyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
     {
       "key": "番号资源",
       "name": "番号资源",
@@ -84,6 +92,14 @@
       "name": "乐播资源",
       "type": 1,
       "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "奥斯卡资源",
+      "name": "奥斯卡资源",
+      "type": 1,
+      "api": "https://aosikazy1.com/api.php/provide/vod/",
       "searchable": 1,
       "filterable": 1
     },
